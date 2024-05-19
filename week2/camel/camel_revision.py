@@ -12,6 +12,7 @@ def convert_snake_case(string):
             output += c
     return output
 
+
 if __name__ == "__main__":
     main()
 
