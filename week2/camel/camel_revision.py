@@ -1,9 +1,9 @@
 def main():
     camel = input("camelCase: ")
-    print("snake_case:", convert_snake_case(camel))
+    print("snake_case:", snake_case(camel))
 
 
-def convert_snake_case(string):
+def snake_case(string):
     output = ""
     for c in string:
         if c.isupper():
