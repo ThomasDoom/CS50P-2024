@@ -5,6 +5,12 @@ Harvard's CS50 Introduction to Programming with Python
 ## My Solutions for all the problem sets
 Updating as I go along...
 
+After SUBMITTING each problem, I rewrote/searched for better solutions to learn.
+
+Each problem folder contains MY solution and a revision if found.
+
+### Links below are MY solutions
+
 ### [Week 0: Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
 * [Indoor Voice](/week0/indoor/indoor.py)
 * [Playback Speed](/week0/playback/playback.py)
@@ -23,14 +29,14 @@ Updating as I go along...
 * [camelCase](/week2/camel/camel.py)
 * [Coke Machine](/week2/coke/coke.py)
 * [Just setting up my twttr](/week2/twttr/twttr.py)
-* ⭐[Vanity Plates](/week2/plates/plates.py)
+* [Vanity Plates](/week2/plates/plates.py)
 * [Nutrition Facts](/week2/nutrition/nutrition.py)
 
 ### [Week 3: Exceptions](https://cs50.harvard.edu/python/2022/psets/3/)
 * [Fuel Gauge](/week3/fuel/fuel.py)
 * [Felipe's Taqueria](/week3/taqueria/taqueria.py)
 * [Grocery List](/week3/grocery/grocery.py)
-* ⭐[Outdated](/week3/outdated/outdated.py)
+* [Outdated](/week3/outdated/outdated.py)
 
 ### [Week 4: Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
 * [Emojize](/week4/emojize/emojize.py)
@@ -44,7 +50,7 @@ Updating as I go along...
 * [Testing my twttr](/week5/test_twttr/)
 * [Back to the Bank](/week5/test_bank/)
 * [Re-requesting a Vanity Plate](/week5/test_plates/)
-* ⭐[Refueling](/week5/test_fuel/)
+* [Refueling](/week5/test_fuel/)
 
 ### [Week 6: File I/O](https://cs50.harvard.edu/python/2022/psets/6/)
 * [Lines of Code](/week6/lines/lines.py)
