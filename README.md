@@ -56,4 +56,4 @@ Each problem folder contains MY solution and a revision if found.
 * [Lines of Code](/week6/lines/lines.py)
 * [Pizza Py](/week6/pizza/pizza.py)
 * [Scourgify](/week6/scourgify/scourgify.py)
-* ⭐[CS50 P-Shirt](/week6/shirt/shirt.py)
+* [CS50 P-Shirt](/week6/shirt/shirt.py)
