@@ -2,6 +2,7 @@ def main():
     camel = input("camelCase: ")
     print("snake_case: " + snake_case(camel))
 
+
 def snake_case(s):
     snake = []
     for c in s:
