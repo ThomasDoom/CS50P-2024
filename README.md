@@ -5,7 +5,7 @@ Harvard's CS50 Introduction to Programming with Python
 ## MY Solutions for all the problem sets
 Updating as I go along...
 
-> After SUBMITTING each problem, I rewrote/searched for better solutions to learn.
+> After submitting each problem, I revised/searched for better solutions to learn.
 > Each problem folder contains MY solution along with a revision if found.
 
 ### [Week 0: Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
