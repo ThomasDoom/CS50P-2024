@@ -22,7 +22,7 @@ def main():
 
     while True:
             try:
-                user_order = input("Item: ").title() # Input formatted to match dict
+                user_order = input("Item: ").title() # Input stored and formatted to match dict
                 if user_order in menu:
                     bill += menu[user_order] # Add's value to bill
                     print(f"Total: ${bill:.2f}") # Displays bill after proper input
