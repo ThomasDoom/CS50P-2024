@@ -1,18 +1,9 @@
-def main():
-    word = input("Input: ")
-    output = ""
+word = input("Input: ")
 
-    for c in word:
-        if is_not_vowel(c):
-            output += c
+output = ""
 
-    print("Output:", output)
-
-
-def is_not_vowel(c):
+for c in word:
     if c not in 'AEIOUaeiou':
-        return True
+        output += c
 
-
-if __name__ == "__main__":
-    main()
+print("Output:", output)
