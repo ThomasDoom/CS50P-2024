@@ -10,23 +10,27 @@ menu: dict[str, float]= {
     "Tortilla Salad": 8.00
 }
 
+
 def main():
     """
     User can order items off the menu.
     Each correctly inputted item is totaled to their 'bill'.
     [CTRL + D] {EOFError} to end their order.
     """
+    
     bill = 0
 
     while True:
             try:
                 user_order = input("Item: ").title() # Input formatted to match dict
                 if user_order in menu:
-                    bill += menu[user_order] # Add's int value to bill
+                    bill += menu[user_order] # Add's value to bill
                     print(f"Total: ${bill:.2f}") # Displays bill after proper input
+                    
             except EOFError:
                 print() # New line for bash
                 break
+                
             except KeyError:
                 pass
 
