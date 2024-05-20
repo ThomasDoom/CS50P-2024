@@ -13,7 +13,7 @@ menu: dict[str, float]= {
 
 def main():
     """
-    User can order items off the menu.
+    User can order items off the menu one at a time.
     Each correctly inputted item is totaled to their 'bill'.
     [CTRL + D] {EOFError} to end their order.
     """
