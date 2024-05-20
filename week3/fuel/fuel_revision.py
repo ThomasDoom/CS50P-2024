@@ -5,10 +5,8 @@ def main():
 def get_fraction(prompt):
     while True:
         try:
-            frac = (input(prompt))
-
-            # Turns both split substrings into integers
-            x, y = map(int, frac.split("/"))
+            # Gets input -> splits string into substrings and converts into integers
+            x, y = map(int, (input(prompt)).split("/"))
 
             # Checks for valid fraction
             if x <= y and y != 0:
@@ -23,7 +21,7 @@ def get_fraction(prompt):
                     return f"{fuel}%"
             else:
                 pass
-            
+
         except (ValueError, ZeroDivisionError):
             pass
 
