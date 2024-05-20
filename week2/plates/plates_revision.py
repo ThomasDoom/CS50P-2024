@@ -14,13 +14,10 @@ def is_valid(s: str) -> bool:
                  or number_check(s)))
 
 
-
 def number_check(s: str) -> bool:
     for i, c in enumerate(s):
         if c.isdigit():
             return c != "0" and s[i:].isdigit()
-
-
 
 
 main()
