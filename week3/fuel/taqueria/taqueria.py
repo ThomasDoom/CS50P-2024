@@ -16,6 +16,7 @@ def main():
     Each correctly inputted item is totaled to their 'bill'.
     [CTRL + D] {EOFError} to end their order.
     """
+    
     bill = 0
 
     while True:
@@ -24,9 +25,11 @@ def main():
                 if user_order in menu:
                     bill += menu[user_order] # Add's int value to bill
                     print(f"Total: ${bill:.2f}") # Displays bill after proper input
+                    
             except EOFError:
                 print() # New line for bash
                 break
+                
             except KeyError:
                 pass
 
