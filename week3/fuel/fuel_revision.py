@@ -1,3 +1,5 @@
+# Clarifying names, Comprehensive coding, Good notes
+
 def main():
     print(calculate_fuel_status("Fraction: "))
 
@@ -31,3 +33,5 @@ def calculate_fuel_status(prompt):
 
 if __name__ == "__main__":
     main()
+
+
