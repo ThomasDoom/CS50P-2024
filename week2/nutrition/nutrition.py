@@ -1,5 +1,4 @@
-fruits: dict[str, int] = {
-    "apple": 130,
+fruits: = {"apple": 130,
     "avocado": 50,
     "banana": 110,
     "cantaloupe": 50,
@@ -21,7 +20,7 @@ fruits: dict[str, int] = {
     "watermelon": 80,
 }
 
-fruit = input("Item: ").lower()
-if fruit in fruits:
-    print("Calories:", fruits[fruit])
+item = input("Item: ").lower()
+if item in fruits:
+    print("Calories:", fruits[item])
 
