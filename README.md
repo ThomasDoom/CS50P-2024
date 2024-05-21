@@ -77,6 +77,12 @@ MY Solutions for all the problem sets:
 * [Regular, um, Expressions](/week7/um/)
 * [Response Validation](/week7/response/)
 
+### [Week 8:](/week8) [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
+* [Seasons of Love](/week8/seasons/)
+* [Cookie Jar](/week8/jar/)
+* [CS50 Shirtificate](/week8/shirtificate/)
+
+
 ## Connect with the CS50 Community
 
 CS50 community on various platforms:
@@ -87,8 +93,3 @@ CS50 community on various platforms:
 - [LinkedIn](https://www.linkedin.com/company/cs50/)
 - [Reddit](https://www.reddit.com/r/cs50/)
 - [Twitter](https://twitter.com/cs50)
-
-### [Week 8:](/week8) [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
-* [Seasons of Love](/week8/seasons/)
-* [Cookie Jar](/week8/jar/)
-* [CS50 Shirtificate](/week8/shirtificate/)
