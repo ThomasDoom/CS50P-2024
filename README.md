@@ -12,13 +12,13 @@ Harvard CS50’s Introduction to Programming with Python — CS50P 2022
   <a href="https://cs50.harvard.edu/python/2022/">CS50P Course Link</a>
 </p>
 
-<pre align="center">
-For Reference Only
-</pre>
+<h2 align="center">
+MY Solutions for all the problem sets:
+</h2>
 
 
-## MY Solutions for all the problem sets
-Updating as I go along...
+
+## Updating as I go along...
 
 > After submitting each problem, I revised/searched for better solutions to learn.
 > Each problem folder contains MY solution along with a revision if found.
