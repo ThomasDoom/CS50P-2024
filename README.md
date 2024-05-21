@@ -1,6 +1,21 @@
-# [CS50P](https://cs50.harvard.edu/python/2022/)
+<br>
 
-Harvard's CS50 Introduction to Programming with Python
+<p align="center">
+<img src="https://i.imgur.com/Jj740Yd.png" alt="logo" height="150"/>
+</p>
+
+<h1 align="center">
+Harvard CS50’s Introduction to Programming with Python — CS50P 2022
+</h1>
+
+<p align="center">
+  <a href="https://cs50.harvard.edu/python/2022/">CS50P Course Link</a>
+</p>
+
+<pre align="center">
+For Reference Only
+</pre>
+
 
 ## MY Solutions for all the problem sets
 Updating as I go along...
@@ -8,7 +23,7 @@ Updating as I go along...
 > After submitting each problem, I revised/searched for better solutions to learn.
 > Each problem folder contains MY solution along with a revision if found.
 
-### [Week 0: Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
+### [Week 0:](/week0) [Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
 * [Indoor Voice](/week0/indoor/indoor.py)
 * [Playback Speed](/week0/playback/playback.py)
 * [Making Faces](/week0/faces/faces.py)
@@ -54,3 +69,15 @@ Updating as I go along...
 * [Pizza Py](/week6/pizza/pizza.py)
 * [Scourgify](/week6/scourgify/scourgify.py)
 * [CS50 P-Shirt](/week6/shirt/shirt.py)
+
+### [Week 7: Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
+* [NUMB3RS](/week7/numb3rs/)
+* [Watch on YouTube](/week7/watch/)
+* [Working 9 to 5](/week7/working/)
+* [Regular, um, Expressions](/week7/um/)
+* [Response Validation](/week7/response/)
+
+### [Week 8: Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
+* [Seasons of Love](/week8/seasons/)
+* [Cookie Jar](/week8/jar/)
+* [CS50 Shirtificate](/week8/shirtificate/)
