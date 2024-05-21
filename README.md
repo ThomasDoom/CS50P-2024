@@ -44,10 +44,10 @@ MY Solutions for all the problem sets:
 * [Vanity Plates](/week2/plates/plates.py)
 * [Nutrition Facts](/week2/nutrition/nutrition.py)
 
-### [Week 3:](/week3) [Exceptions](https://cs50.harvard.edu/python/2022/psets/3/)
+### [Week 3:](/week3) [Exceptions](https://cs50.harvard.edu/python/2022/psets/3/) 
 * [Fuel Gauge](/week3/fuel/fuel.py)
 * [Felipe's Taqueria](/week3/taqueria/taqueria.py)
-* [Grocery List](/week3/grocery/grocery.py)
+* [Grocery List](/week3/grocery/grocery.py) <-- CURRENTLY HERE
 * [Outdated](/week3/outdated/outdated.py)
 
 ### [Week 4:](/week4) [Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
@@ -76,6 +76,17 @@ MY Solutions for all the problem sets:
 * [Working 9 to 5](/week7/working/)
 * [Regular, um, Expressions](/week7/um/)
 * [Response Validation](/week7/response/)
+
+## Connect with the CS50 Community
+
+CS50 community on various platforms:
+
+- [Facebook](https://www.facebook.com/groups/cs50/)
+- [GitHub](https://github.com/cs50)
+- [Instagram](https://www.instagram.com/cs50/)
+- [LinkedIn](https://www.linkedin.com/company/cs50/)
+- [Reddit](https://www.reddit.com/r/cs50/)
+- [Twitter](https://twitter.com/cs50)
 
 ### [Week 8:](/week8) [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
 * [Seasons of Love](/week8/seasons/)
