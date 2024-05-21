@@ -1,1 +1,1 @@
-input("").lower()
+input().lower()
