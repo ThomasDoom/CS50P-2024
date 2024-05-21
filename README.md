@@ -16,7 +16,11 @@ Harvard CS50’s Introduction to Programming with Python — CS50P 2022
 MY Solutions for all the problem sets:
 </h2>
 
+## Course Overview
 
+- **Instructor**: [David J. Malan](mailto:malan@harvard.edu)
+- **Platform**: [edX](https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home)
+- [CS50P Python Course Syllabus](https://cs50.harvard.edu/python/2022/syllabus/).
 
 ## Updating as I go along...
 
