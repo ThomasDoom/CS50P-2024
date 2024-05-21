@@ -20,7 +20,7 @@ MY Solutions for all the problem sets:
 
 - **Instructor**: [David J. Malan](mailto:malan@harvard.edu)
 - **Platform**: [edX](https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home)
-- [CS50P Python Course Syllabus](https://cs50.harvard.edu/python/2022/syllabus/).
+- **Syllabus**: [CS50P Python Course Syllabus](https://cs50.harvard.edu/python/2022/syllabus/).
 
 ## Updating as I go along...
 
