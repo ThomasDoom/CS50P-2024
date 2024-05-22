@@ -1,36 +1,33 @@
-list = []
-item_count: dict[str, int] = {}
-# THIS LOOKS SO MUCH EASIER T-T
+grocery_list: dict[str, int] = {}
+# THIS IS SO MUCH SIMPLER T-T
 
 def main():
     """
     Get input, count their occurrences, and print the counts alphabetically
     """
     try:
-        while True:
-            item = input().upper()
-            list.append(item)
+        frequency_count(grocery_list)
     except EOFError:
-        frequency_count()
-        print_sorted_items(item_count)
+        print_sorted_items(grocery_list)
 
 
-def frequency_count():
+def frequency_count(list: dict[str, int]) -> None:
     """
     Count frequency of items in list
     """
-    for i in list:
-        if not i in item_count:
-            item_count[i] = 1
+    while True:
+        item = input().upper().strip()
+        if not item in list:
+            list[item] = 1
         else:
-            item_count[i] += 1
+            list[item] += 1
 
 
-def print_sorted_items(counts: dict[str, int]):
+def print_sorted_items(list: dict[str, int]) -> str:
     """
     Prints the item counts sorted alpha by item names
     """
-    for key, value in sorted(item_count.items()):
+    for key, value in sorted(list.items()):
         print(value, key)
 
 
