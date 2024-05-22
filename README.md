@@ -51,8 +51,8 @@ MY Solutions for all the problem sets:
 ### [Week 3:](/week3) [Exceptions](https://cs50.harvard.edu/python/2022/psets/3/) 
 * [Fuel Gauge](/week3/fuel/fuel.py)
 * [Felipe's Taqueria](/week3/taqueria/taqueria.py)
-* [Grocery List](/week3/grocery/grocery.py) <-- CURRENTLY HERE
-* [Outdated](/week3/outdated/outdated.py)
+* [Grocery List](/week3/grocery/grocery.py) 
+* [Outdated](/week3/outdated/outdated.py) <-- CURRENTLY HERE
 
 ### [Week 4:](/week4) [Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
 * [Emojize](/week4/emojize/emojize.py)
