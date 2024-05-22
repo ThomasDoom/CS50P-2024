@@ -1,5 +1,5 @@
 grocery_list: dict[str, int] = {}
-# THIS IS SO MUCH SIMPLER T-T
+# THIS LOOKS SO MUCH SIMPLER T-T
 
 def main():
     """
