@@ -1,6 +1,5 @@
-
 item_count: dict[str, int] = {}
-
+# THIS TOOK FOREVER TO FIGURE OUTTTTTT
 
 def main():
     """
@@ -29,5 +28,3 @@ def print_sorted_items(counts: dict[str, int]):
 
 if __name__ == "__main__":
     main()
-
-# THIS TOOK FOREVER TO FIGURE OUTTTTTT
