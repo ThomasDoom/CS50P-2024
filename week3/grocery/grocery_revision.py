@@ -1,14 +1,12 @@
 grocery_list: dict[str, int] = {}
-# THIS LOOKS SO MUCH SIMPLER T-T
+# THIS LOOKS SO MUCH NICER T-T
 
 def main():
     """
     Get input, count their occurrences, and print the counts alphabetically
     """
-    try:
-        frequency_count(grocery_list)
-    except EOFError:
-        print_sorted_items(grocery_list)
+    frequency_count(grocery_list)
+    print_sorted_items(grocery_list)
 
 
 def frequency_count(list: dict[str, int]) -> None:
@@ -16,11 +14,15 @@ def frequency_count(list: dict[str, int]) -> None:
     Count frequency of items in list
     """
     while True:
-        item = input().upper().strip()
-        if not item in list:
-            list[item] = 1
+        try:
+            item = input().upper()
+        except EOFError:
+            break
         else:
-            list[item] += 1
+            try:
+                list[item] += 1
+            except KeyError:
+                list[item] = 1
 
 
 def print_sorted_items(list: dict[str, int]) -> str:
