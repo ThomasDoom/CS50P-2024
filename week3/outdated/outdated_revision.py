@@ -33,4 +33,4 @@ if __name__ == "__main__":
     main()
 
 
-# i could rewrite this with helper functions inside of main() to make it nicer and more maintainable but this problem took all my patience and tears so this is all we're gettin for now
+# i could rewrite this with helper functions inside of main() to make it nicer and more maintainable but this problem took all my patience and tears so we're copin with one big main function for now
