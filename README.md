@@ -52,11 +52,11 @@ MY Solutions for all the problem sets:
 * [Fuel Gauge](/week3/fuel/fuel.py)
 * [Felipe's Taqueria](/week3/taqueria/taqueria.py)
 * [Grocery List](/week3/grocery/grocery.py) 
-* [Outdated](/week3/outdated/outdated.py) <-- CURRENTLY HERE
+* [Outdated](/week3/outdated/outdated.py) 
 
 ### [Week 4:](/week4) [Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
 * [Emojize](/week4/emojize/emojize.py)
-* [Frank, Ian and Glen's Letters](/week4/figlet/figlet.py)
+* [Frank, Ian and Glen's Letters](/week4/figlet/figlet.py) <-- CURRENTLY HERE
 * [Adieu, Adieu](/week4/adieu/adieu.py)
 * [Guessing Game](/week4/game/game.py)
 * [Little Professor](/week4/professor/professor.py)
