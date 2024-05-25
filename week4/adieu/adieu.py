@@ -1,3 +1,5 @@
+# ...... i didnt open the hint LOL
+
 names = []
 while True:
     try:
