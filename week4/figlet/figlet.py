@@ -5,11 +5,9 @@ from random import choice
 f = Figlet()
 fonts = f.getFonts()
 
-
 try:
     if sys.argv[1] not in ('-f', '--font'):
         raise Exception
-
     f.setFont(font=sys.argv[2])
 
 except IndexError:
