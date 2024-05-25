@@ -16,8 +16,5 @@ except IndexError:
 except (TypeError, Exception):
     sys.exit("Invalid Usage")
 
-
 s = input("Input: ")
-
 print("Output:\n", f.renderText(s))
-
