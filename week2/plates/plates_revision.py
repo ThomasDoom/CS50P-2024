@@ -15,7 +15,7 @@ def is_valid(s: str) -> bool:
 
 
 def number_check(s: str) -> bool:
-    for i, c in enumerate(s): # Enumerate = [(2, 'C'), (3, 'S'), (4, '5'), (5, '0')]
+    for i, c in enumerate(s): # Enumerate = [(0, 'C'), (1, 'S'), (2, '5'), (3, '0')]
         if c.isdigit():
             return c != "0" and s[i:].isdigit() # Once first digit is found, check if 0 and check if remainder isdigit
 
