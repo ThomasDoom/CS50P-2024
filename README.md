@@ -56,10 +56,10 @@ MY Solutions for all the problem sets:
 
 ### [Week 4:](/week4) [Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
 * [Emojize](/week4/emojize/emojize.py)
-* [Frank, Ian and Glen's Letters](/week4/figlet/figlet.py) <-- CURRENTLY HERE
+* [Frank, Ian and Glen's Letters](/week4/figlet/figlet.py) 
 * [Adieu, Adieu](/week4/adieu/adieu.py)
 * [Guessing Game](/week4/game/game.py)
-* [Little Professor](/week4/professor/professor.py)
+* [Little Professor](/week4/professor/professor.py) <-- CURRENTLY HERE
 * [Bitcoin Price Index](/week4/bitcoin/bitcoin.py)
 
 ### [Week 5:](/week5) [Unit Tests](https://cs50.harvard.edu/python/2022/psets/5/)
