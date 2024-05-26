@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
 
 
-# SHORTER ALT WITHOUT FUNCTIONS
+# ALT WITHOUT FUNCTIONS
 
 # camel = input("camelCase: ")
 # output = ""
