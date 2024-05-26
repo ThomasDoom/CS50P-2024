@@ -6,9 +6,8 @@ def main():
         try:
             level = get_user_input()
 
-            # Generate answer
+            # Generate answer and start game
             answer = randint(1, level)
-
             guess_and_check(answer)
 
         # For non-integers
