@@ -4,25 +4,27 @@ def main():
     # Loop till user wins
     while True:
         try:
-            level = get_user_input()
+            # Get level
+            level = get_positive_integer("Level: ")
 
-            # Generate answer and start game
+            # Generate random answer based on level
             answer = randint(1, level)
+
+            # Start guessing game
             guess_and_check(answer)
 
-        # For non-integers
+        # Catch invalid inputs
         except (ValueError, Exception):
             pass
 
 
-def get_user_input() -> int:
-    level = int(input("Level: "))
+def get_positive_integer(prompt) -> int:
+    level = int(input(prompt))
 
-    # Check for positive integer
     if level > 0:
         return level
 
-    # Fail case for negative integer and 0
+    # Non-positive integer
     raise Exception
 
 
@@ -30,7 +32,7 @@ def guess_and_check(answer: int) -> str:
     while True:
         guess = int(input("Guess: "))
 
-        # Determine loss or win (less, more, equal)
+        # Feedback for each guess to answer
         if guess > answer:
             print("Too large!")
         elif guess < answer:
