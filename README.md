@@ -42,7 +42,7 @@ MY Solutions for all the problem sets:
 * [Meal Time](/week1/meal/meal.py)
 
 ### [Week 2:](/week2) [Loops](https://cs50.harvard.edu/python/2022/psets/2/)
-* [camelCase](/week2/camel/camel.py) - [[REVISION]](/week2/camel/camel_revision.py)
+* [camelCase](/week2/camel/camel.py) -   [[REVISION]](/week2/camel/camel_revision.py)
 * [Coke Machine](/week2/coke/coke.py) - [[REVISION]](/week2/coke/coke_revision.py)
 * [Just setting up my twttr](/week2/twttr/twttr.py) - [[REVISION]](/week2/twttr/twttr_revision.py)
 * [Vanity Plates](/week2/plates/plates.py) - [[REVISION]](/week2/plates/plates_revision.py)
