@@ -1,5 +1,6 @@
 from random import randint
 
+# EASILY CONFIGURABLE
 MIN_LEVEL = 1
 MAX_LEVEL = 3
 NUM_QUESTIONS = 10
