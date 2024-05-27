@@ -25,7 +25,7 @@ MY Solutions for all the problem sets:
 ## Updating as I go along... (May 10th, 2024 -> ... )
 
 > After submitting each problem, I searched for better solutions/optimizations to learn.
-> Each problem folder contains MY solution along with a **revision** if found.
+> Each problem folder contains MY solution along with a **REVISION** if found.
 
 ### [Week 0:](/week0) [Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
 * [Indoor Voice](/week0/indoor/indoor.py)
