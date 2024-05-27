@@ -16,5 +16,5 @@ except ValueError:
 except IndexError:
     sys.exit("Missing command-line argument")
 else:
-    print(f"Your amount of {sys.argv[1]} BTC is ${amount:,.4f}")
+    print(f"{sys.argv[1]}BTC is ${amount:,.4f}")
 
