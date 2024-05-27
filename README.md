@@ -35,32 +35,32 @@ MY Solutions for all the problem sets:
 * [Tip Calculator](/week0/tip/tip.py)
 
 ### [Week 1:](/week1) [Conditionals](https://cs50.harvard.edu/python/2022/psets/1/)
-* [Deep Thought](/week1/deep/deep.py) | <sup><sub>*[**[REVISION]**](/week1/deep/deep_revision.py)
-* [Home Federal Savings Bank](/week1/bank/bank.py) | <sup><sub>*[**[REVISION]**](/week1/bank/bank_revision.py)
+* [Deep Thought](/week1/deep/deep.py) | <sup><sub>*[**[REVISION]**](/week1/deep/deep_revision.py)*
+* [Home Federal Savings Bank](/week1/bank/bank.py) | <sup><sub>*[**[REVISION]**](/week1/bank/bank_revision.py)*
 * [File Extensions](/week1/extensions/extensions.py)
-* [Math Interpreter](/week1/interpreter/interpreter.py) | <sup><sub>*[**[REVISION]**](/week1/interpreter/interpreter_revision.py)
+* [Math Interpreter](/week1/interpreter/interpreter.py) | <sup><sub>*[**[REVISION]**](/week1/interpreter/interpreter_revision.py)*
 * [Meal Time](/week1/meal/meal.py)
 
 ### [Week 2:](/week2) [Loops](https://cs50.harvard.edu/python/2022/psets/2/)
-* [camelCase](/week2/camel/camel.py) | <sup><sub>*[**[REVISION]**](/week2/camel/camel_revision.py)
-* [Coke Machine](/week2/coke/coke.py) | <sup><sub>*[**[REVISION]**](/week2/coke/coke_revision.py)
-* [Just setting up my twttr](/week2/twttr/twttr.py) | <sup><sub>*[**[REVISION]**](/week2/twttr/twttr_revision.py)
-* [Vanity Plates](/week2/plates/plates.py) | <sup><sub>*[**[REVISION]**](/week2/plates/plates_revision.py)
-* [Nutrition Facts](/week2/nutrition/nutrition.py) | <sup><sub>*[**[REVISION]**](/week2/nutrition/nutrition_revision.py)
+* [camelCase](/week2/camel/camel.py) | <sup><sub>*[**[REVISION]**](/week2/camel/camel_revision.py)*
+* [Coke Machine](/week2/coke/coke.py) | <sup><sub>*[**[REVISION]**](/week2/coke/coke_revision.py)*
+* [Just setting up my twttr](/week2/twttr/twttr.py) | <sup><sub>*[**[REVISION]**](/week2/twttr/twttr_revision.py)*
+* [Vanity Plates](/week2/plates/plates.py) | <sup><sub>*[**[REVISION]**](/week2/plates/plates_revision.py)*
+* [Nutrition Facts](/week2/nutrition/nutrition.py) | <sup><sub>*[**[REVISION]**](/week2/nutrition/nutrition_revision.py)*
 
 ### [Week 3:](/week3) [Exceptions](https://cs50.harvard.edu/python/2022/psets/3/) 
-* [Fuel Gauge](/week3/fuel/fuel.py) | <sup><sub>*[**[REVISION]**](/week3/fuel/fuel_revision.py)
+* [Fuel Gauge](/week3/fuel/fuel.py) | <sup><sub>*[**[REVISION]**](/week3/fuel/fuel_revision.py)*
 * [Felipe's Taqueria](/week3/taqueria/taqueria.py)
-* [Grocery List](/week3/grocery/grocery.py) | <sup><sub>*[**[REVISION]**](/week3/grocery/grocery_revision.py)
-* [Outdated](/week3/outdated/outdated.py) | <sup><sub>*[**[REVISION]**](/week3/outdated/outdated_revision.py)
+* [Grocery List](/week3/grocery/grocery.py) | <sup><sub>*[**[REVISION]**](/week3/grocery/grocery_revision.py)*
+* [Outdated](/week3/outdated/outdated.py) | <sup><sub>*[**[REVISION]**](/week3/outdated/outdated_revision.py)*
 
 ### [Week 4:](/week4) [Libraries](https://cs50.harvard.edu/python/2022/psets/4/)
 * [Emojize](/week4/emojize/emojize.py)
 * [Frank, Ian and Glen's Letters](/week4/figlet/figlet.py) 
-* [Adieu, Adieu](/week4/adieu/adieu.py) | <sup><sub>*[**[REVISION]**](/week4/adieu/adieu_revision)
-* [Guessing Game](/week4/game/game.py) | <sup><sub>*[**[REVISION]**](/week4/game/game_revision.py)
-* [Little Professor](/week4/professor/professor.py) | <sup><sub>*[**[REVISION]**](/week4/professor/professor_revision.py)
-* [Bitcoin Price Index](/week4/bitcoin/bitcoin.py) | <sup><sub>*[**[REVISION]**](/week4/bitcoin/bitcoin_revision.py)
+* [Adieu, Adieu](/week4/adieu/adieu.py) | <sup><sub>*[**[REVISION]**](/week4/adieu/adieu_revision)*
+* [Guessing Game](/week4/game/game.py) | <sup><sub>*[**[REVISION]**](/week4/game/game_revision.py)*
+* [Little Professor](/week4/professor/professor.py) | <sup><sub>*[**[REVISION]**](/week4/professor/professor_revision.py)*
+* [Bitcoin Price Index](/week4/bitcoin/bitcoin.py) | <sup><sub>*[**[REVISION]**](/week4/bitcoin/bitcoin_revision.py)*
 
 ### [Week 5:](/week5) [Unit Tests](https://cs50.harvard.edu/python/2022/psets/5/)
 * [Testing my twttr](/week5/test_twttr/)  <-- CURRENTLY HERE
