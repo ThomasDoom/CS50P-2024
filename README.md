@@ -38,7 +38,7 @@ MY Solutions for all the problem sets:
 * [Deep Thought](/week1/deep/deep.py) | <sup><sub>[***REVISION**](/week1/deep/deep_revision.py)*
 * [Home Federal Savings Bank](/week1/bank/bank.py) | <sup><sub>[***REVISION**](/week1/bank/bank_revision.py)*
 * [File Extensions](/week1/extensions/extensions.py)
-* [Math Interpreter](/week1/interpreter/interpreter.py) | <sup><sub>[***REVISION**](/week1/interpreter/interpreter_revision.py)*
+* [Math Interpreter](/week1/interpreter/interpreter.py) | <sup><sub>[***REVISION**](/week1/interpreter/interpret_revision.py)*
 * [Meal Time](/week1/meal/meal.py)
 
 ### [Week 2:](/week2) [Loops](https://cs50.harvard.edu/python/2022/psets/2/)
