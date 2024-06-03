@@ -11,7 +11,8 @@ def is_valid(s: str) -> bool:
             and s[:2].isalpha() # Check first 2 char are letters
             and s.isalnum() # Check for punctuation/spaces
             and (s.isalpha()
-                 or number_check(s)) # If there are numbers go through function
+                 or number_check(s) # If there are numbers go through function
+                )
            )
 
 
