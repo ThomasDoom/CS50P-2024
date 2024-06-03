@@ -63,12 +63,12 @@ MY Solutions for all the problem sets:
 * [Bitcoin Price Index](/week4/bitcoin/bitcoin.py) | <sup><sub>[***REVISION**](/week4/bitcoin/bitcoin_revision.py)*
 
 ### [Week 5:](/week5) [Unit Tests](https://cs50.harvard.edu/python/2022/psets/5/)
-* [Testing my twttr](/week5/test_twttr/)  <-- CURRENTLY HERE
+* [Testing my twttr](/week5/test_twttr/) 
 * [Back to the Bank](/week5/test_bank/)
 * [Re-requesting a Vanity Plate](/week5/test_plates/)
-* [Refueling](/week5/test_fuel/)
+* [Refueling](/week5/test_fuel/) | <sup><sub>[***REVISION**](/week4/test_fuel/test_fuel_revision.py)*
 
-### [Week 6:](/week6) [File I/O](https://cs50.harvard.edu/python/2022/psets/6/)
+### [Week 6:](/week6) [File I/O](https://cs50.harvard.edu/python/2022/psets/6/)  <-- CURRENTLY HERE
 * [Lines of Code](/week6/lines/lines.py)
 * [Pizza Py](/week6/pizza/pizza.py)
 * [Scourgify](/week6/scourgify/scourgify.py)
