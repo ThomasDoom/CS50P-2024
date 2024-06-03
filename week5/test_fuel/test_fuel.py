@@ -1,6 +1,11 @@
 from fuel import convert, gauge
 import pytest
 
+"""
+This test and fuel.py assumes the users inputs will be (in some shape or form) between 0 - 100
+Negatives and n > 100 is not accounted for
+"""
+
 def test_convert():
     assert convert("0/4") == 0
     assert convert("1/4") == 25
@@ -17,6 +22,7 @@ def test_errors():
     with pytest.raises(ValueError):
         convert("three/four")
         convert("1.5/3")
+        convert("3-4")
 
     with pytest.raises(ZeroDivisionError):
         convert("4/0")
