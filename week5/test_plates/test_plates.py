@@ -1,5 +1,13 @@
 from plates import is_valid
 
+"""
+    # Must start with 2+ LETTERS
+    # Char MIN = 2 | MAX = 6
+    # Numbers MUST come at the END, AAA222, X AAA22A
+    # First number used CANNOT be 0
+    # No punctuation/spaces
+"""
+
 def test_length():
     assert is_valid("Hello") == True
     assert is_valid("HelloWorld") == False
