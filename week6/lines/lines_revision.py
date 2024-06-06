@@ -3,7 +3,7 @@ import sys
 
 def main():
     if check_for_file():
-        print(lines_of_code())
+        lines_of_code()
 
 
 def check_for_file() -> bool:
@@ -31,16 +31,14 @@ def lines_of_code() -> int:
     try:
         file = open(sys.argv[1]).read().splitlines()
         lines = 0
-
         for row in file:
-
+            
             row = row.strip()
-
             # EMPTY STRINGS/LISTS AND COMMENTS RETURN FALSE
             if row and not row.startswith("#"):
                 lines += 1
 
-        return lines
+        print(lines)
 
     except FileNotFoundError:
         sys.exit("File does not exist")
