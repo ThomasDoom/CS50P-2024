@@ -1,6 +1,8 @@
 import sys
 from tabulate import tabulate
 
+#  I really just brute forced this tbh
+
 def main():
     if check_for_file():
         get_menu()
