@@ -66,12 +66,12 @@ MY Solutions for all the problem sets:
 * [Testing my twttr](/week5/test_twttr/) 
 * [Back to the Bank](/week5/test_bank/)
 * [Re-requesting a Vanity Plate](/week5/test_plates/)
-* [Refueling](/week5/test_fuel/) | <sup><sub>[***REVISION**](/week4/test_fuel/test_fuel_revision.py)*
+* [Refueling](/week5/test_fuel/) | <sup><sub>[***REVISION**](/week5/test_fuel/test_fuel_revision.py)*
 
-### [Week 6:](/week6) [File I/O](https://cs50.harvard.edu/python/2022/psets/6/)  <-- CURRENTLY HERE
-* [Lines of Code](/week6/lines/lines.py)
-* [Pizza Py](/week6/pizza/pizza.py)
-* [Scourgify](/week6/scourgify/scourgify.py)
+### [Week 6:](/week6) [File I/O](https://cs50.harvard.edu/python/2022/psets/6/)
+* [Lines of Code](/week6/lines/lines.py) | <sup><sub>[***REVISION**](/week6/lines/lines_revision.py)*
+* [Pizza Py](/week6/pizza/pizza.py) | <sup><sub>[***REVISION**](/week6/pizza/pizza_revision.py)*
+* [Scourgify](/week6/scourgify/scourgify.py)  <-- CURRENTLY HERE
 * [CS50 P-Shirt](/week6/shirt/shirt.py)
 
 ### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
