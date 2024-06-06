@@ -1,4 +1,4 @@
-import sys
+from sys import argv, exit
 from tabulate import tabulate
 from csv import DictReader
 
@@ -8,27 +8,27 @@ def main():
 
 
 def check_for_file() -> bool:
-    if len(sys.argv) < 2:
-        sys.exit("Too few command-line arguments")
+    if len(argv) < 2:
+        exit("Too few command-line arguments")
 
-    elif len(sys.argv) > 2:
-        sys.exit("Too many command-line arguments")
+    elif len(argv) > 2:
+        exit("Too many command-line arguments")
 
-    if not sys.argv[1].endswith(".csv"):
-        sys.exit("Not a CSV File")
+    if not argv[1].endswith(".csv"):
+        exit("Not a CSV File")
 
     return True
 
 
 def get_menu() -> None:
     try:
-        with open(sys.argv[1]) as menu:
-          
+        with open(argv[1]) as menu:
+
             #  Shoulda looked more into the DictReader documentation oops
             print(tabulate(DictReader(menu), headers="keys", tablefmt="grid"))
 
     except FileNotFoundError:
-        sys.exit("CSV File not found")
+        exit("CSV File not found")
 
 
 if __name__ == "__main__":
