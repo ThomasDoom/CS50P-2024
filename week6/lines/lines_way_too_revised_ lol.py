@@ -14,3 +14,4 @@ except FileNotFoundError:
 import sys; sys.exit("Invalid argument") if len(sys.argv) != 2 or not sys.argv[1].endswith(".py") else print(sum(1 for line in open(sys.argv[1]) if line.strip() and not line.lstrip().startswith("#"))) if open(sys.argv[1]) else sys.exit("File does not exist")
 
 # least confusing code right there. horrifying. it passes the check50 tho so its clearly optimal /s
+# referenced @csfive's solution for this
