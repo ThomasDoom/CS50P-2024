@@ -26,7 +26,7 @@ def read_input(input_file) -> list:
     reader = csv.DictReader(file)
     
     #  DEFINES NEW KEYS
-    #  FOR EACH ROW IN THE INPUT, SPLIT INTO FIRST NAME, LAST NAME, HOUSE
+    #  FOR EACH ROW IN INPUT FILE, SPLIT DATA INTO FIRST_NAME, LAST_NAME, HOUSE
     #  RETURNS RECONSTRUCTED LIST OF NEW DICTIONARIES
     return [
         {"first": first, "last": last, "house": row["house"]}
@@ -40,6 +40,7 @@ def write_output(output_file, new_data: list) -> None:
 
     fieldnames = ["first", "last", "house"]
     writer = csv.DictWriter(file, fieldnames=fieldnames)
+    
     writer.writeheader()
     writer.writerows(new_data)
 
