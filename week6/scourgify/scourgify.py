@@ -11,7 +11,7 @@ def main():
         write_file(new_data)
 
 
-def validate_arguments() -> bool:
+def check_for_files() -> bool:
     if len(argv) < 3:
         exit("Too few command-line arguments")
 
