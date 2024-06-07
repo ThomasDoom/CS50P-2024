@@ -1,13 +1,15 @@
 from sys import argv, exit
-import csv
-
-
-fieldnames = ["first", "last", "house"]
+import csv  
 
 
 def main():
+    #  GET VALID CSV FILES
     input_file, output_file = validate_arguments(argv)
+
+    #  REFORMAT INPUT DATA
     new_data = read_input(input_file)
+
+    #  WRITE REFORMATTED DATA TO OUTPUT
     write_output(output_file, new_data)
 
 
@@ -22,10 +24,7 @@ def validate_arguments(args) -> tuple:
 
 
 def read_input(input_file) -> list:
-    try:
-        file = open(input_file)
-    except FileNotFoundError:
-        exit(f"Could not read {input_file}")
+    file = open_file(input_file, "r")
 
     reader = csv.DictReader(file)
 
@@ -40,16 +39,21 @@ def read_input(input_file) -> list:
 
 
 def write_output(output_file, new_data: list) -> None:
-    try:
-        file = open(output_file, mode='w')
-    except Exception as e:
-        exit(f"Could not write {output_file}: {e}")
-
+    file = open_file(output_file, "w")
+    
+    fieldnames = ["first", "last", "house"]
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
     writer.writeheader()
     writer.writerows(new_data)
 
+
+def open_file(file, mode: str):
+    try:
+        return open(file, mode=mode)
+    except FileNotFoundError:
+        exit(f"Could not read {file}")
+    
 
 if __name__ == "__main__":
     main()
