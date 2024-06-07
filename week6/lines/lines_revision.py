@@ -36,7 +36,7 @@ def lines_of_code() -> int:
 
             row = row.strip()
 
-            # EMPTY STRINGS/LISTS AND COMMENTS RETURN FALSE
+            # EMPTY STRINGS/LISTS AND COMMENTS WILL RETURN FALSE
             if row and not row.startswith("#"):
                 lines += 1
 
