@@ -5,10 +5,8 @@ import csv
 def main():
     #  GET VALID CSV FILES
     input_file, output_file = validate_arguments(argv)
-
     #  REFORMAT INPUT DATA
     new_data = read_input(input_file)
-
     #  WRITE REFORMATTED DATA TO OUTPUT
     write_output(output_file, new_data)
 
