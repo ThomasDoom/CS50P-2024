@@ -23,7 +23,6 @@ def validate_arguments(args) -> tuple:
 
 def read_input(input_file) -> list:
     file = open_file(input_file, "r")
-
     reader = csv.DictReader(file)
 
     #  DEFINES NEW KEYS
@@ -37,9 +36,9 @@ def read_input(input_file) -> list:
 
 
 def write_output(output_file, new_data: list) -> None:
-    file = open_file(output_file, "w")
-    
     fieldnames = ["first", "last", "house"]
+    
+    file = open_file(output_file, "w")
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
     writer.writeheader()
