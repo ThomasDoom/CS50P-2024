@@ -1,5 +1,5 @@
 from sys import argv, exit
-import csv  
+import csv
 
 
 def main():
@@ -24,7 +24,7 @@ def validate_arguments(args) -> tuple:
 def read_input(input_file) -> list:
     file = open_file(input_file, "r")
     reader = csv.DictReader(file)
-
+    
     #  DEFINES NEW KEYS
     #  FOR EACH ROW IN THE INPUT, SPLIT INTO FIRST NAME, LAST NAME, HOUSE
     #  RETURNS RECONSTRUCTED LIST OF NEW DICTIONARIES
@@ -36,11 +36,10 @@ def read_input(input_file) -> list:
 
 
 def write_output(output_file, new_data: list) -> None:
-    fieldnames = ["first", "last", "house"]
-    
     file = open_file(output_file, "w")
-    writer = csv.DictWriter(file, fieldnames=fieldnames)
 
+    fieldnames = ["first", "last", "house"]
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(new_data)
 
@@ -50,7 +49,7 @@ def open_file(file, mode: str):
         return open(file, mode=mode)
     except FileNotFoundError:
         exit(f"Could not read {file}")
-    
+
 
 if __name__ == "__main__":
     main()
