@@ -71,8 +71,8 @@ MY Solutions for all the problem sets:
 ### [Week 6:](/week6) [File I/O](https://cs50.harvard.edu/python/2022/psets/6/)
 * [Lines of Code](/week6/lines/lines.py) | <sup><sub>[***REVISION**](/week6/lines/lines_revision.py)*
 * [Pizza Py](/week6/pizza/pizza.py) | <sup><sub>[***REVISION**](/week6/pizza/pizza_revision.py)*
-* [Scourgify](/week6/scourgify/scourgify.py)  <-- CURRENTLY HERE
-* [CS50 P-Shirt](/week6/shirt/shirt.py)
+* [Scourgify](/week6/scourgify/scourgify.py) | <sup><sub>[***REVISION**](/week6/scourgify/scourgify_revision.py)*
+* [CS50 P-Shirt](/week6/shirt/shirt.py)  <-- CURRENTLY HERE
 
 ### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
 * [NUMB3RS](/week7/numb3rs/)
