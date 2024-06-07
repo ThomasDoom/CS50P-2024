@@ -6,37 +6,33 @@ fieldnames = ["first", "last", "house"]
 
 
 def main():
-    if check_for_files():
-        new_data = open_file()
-        write_file(new_data)
+    input_file, output_file = validate_arguments(argv)
+
+    new_data = read_input(input_file)
+
+    write_output(output_file, new_data)
 
 
-def check_for_files() -> bool:
-    if len(argv) < 3:
-        exit("Too few command-line arguments")
+def validate_arguments(args) -> bool:
+    if len(args) != 3:
+        sys.exit("Usage: python scourgify.py input.csv output.csv")
 
-    elif len(argv) > 3:
-        exit("Too many command-line arguments")
-
-    if not (argv[1].endswith(".csv") or argv[2].endswith(".csv")):
+    if not (args[1].endswith(".csv") or args[2].endswith(".csv")):
         exit("Not a CSV File")
 
-    return True
+    return args[1], args[2]
 
 
-def open_file() -> list:
-    #  CHECK FOR VALID CSV
+def read_input(input_file) -> list:
     try:
-        file = open(argv[1])
+        file = open(input_file)
     except FileNotFoundError:
-        exit(f"Could not read {argv[1]}")
+        exit(f"Could not read {input_file}")
 
-    #  CREATE A DICTREADER OBJECT
+
     reader = csv.DictReader(file)
+    new_data = []
 
-    converted_dict = []
-
-    #  CONVERT THE READER OBJECT TO A NEW LIST OF DICTIONARIES WITH FIRST, LAST, HOUSE KEYS
     for row in reader:
         last, first = map(str, row['name'].split(", "))
 
@@ -46,26 +42,23 @@ def open_file() -> list:
             'house': row['house']
         }
 
-        converted_dict.append(row)
+        new_data.append(row)
 
-    return converted_dict
+    return new_data
 
 
-def write_file(new_file: list):
+def write_output(output_file, new_data: list):
     #  CHECK FOR VALID CSV
     try:
-        with open(argv[2], mode='w') as file:
-    except AttributeError:
-        exit(f"Could not write {argv[2]}")
+        file = open(output_file, mode='w')
+    except Exception as e:
+        exit(f"Could not write {output_file}: {e}")
 
-    #  CREATE A DICTWRITER OBJECT WITH NEW FIELDNAMES
     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
-    # WRITE HEADER AND APPEND NEW DATA
     writer.writeheader()
-    writer.writerows(new_file)
+    writer.writerows(new_data)
 
 
 if __name__ == "__main__":
     main()
-
