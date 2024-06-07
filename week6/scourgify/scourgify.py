@@ -13,7 +13,7 @@ def main():
     write_output(output_file, new_data)
 
 
-def validate_arguments(args) -> bool:
+def validate_arguments(args) -> str:
     if len(args) != 3:
         sys.exit("Usage: python scourgify.py input.csv output.csv")
 
@@ -47,7 +47,7 @@ def read_input(input_file) -> list:
     return new_data
 
 
-def write_output(output_file, new_data: list):
+def write_output(output_file, new_data: list) -> None:
     try:
         file = open(output_file, mode='w')
     except Exception as e:
