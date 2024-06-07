@@ -48,7 +48,6 @@ def read_input(input_file) -> list:
 
 
 def write_output(output_file, new_data: list):
-    #  CHECK FOR VALID CSV
     try:
         file = open(output_file, mode='w')
     except Exception as e:
