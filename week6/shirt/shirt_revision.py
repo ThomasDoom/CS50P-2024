@@ -20,13 +20,12 @@ def main():
 
 
 def validate_arguments() -> tuple:
-    #  VALIDATE 2 COMMAND LINE INPUTS
     if len(argv) != 3:
         exit("Usage: python shirt.py before.png after.png")
 
     #  ISOLATE .EXTENSIONS
-    input_extension: tuple = splitext(argv[1])[1]
-    output_extension: tuple = splitext(argv[2])[1]
+    input_extension = splitext(argv[1])[1]
+    output_extension = splitext(argv[2])[1]
 
     #  CHECKS VALID EXTENSION AND IF INPUT & OUTPUT EXTENSIONS MATCH @csfive for reference
     if (
@@ -42,22 +41,18 @@ def validate_arguments() -> tuple:
 
 def overlay_images(shirt, muppet):
     #  RESIZE MUPPET IMAGE TO SHIRT IMAGE DIMENSIONS
-    result = ImageOps.fit(image=muppet, size=shirt.size)
-
-    #  PASTE MASKED SHIRT IMAGE ON TOP OF MUPPET IMAGE
-    result.paste(im=shirt, mask=shirt)
-    return result
+    muppet_result = ImageOps.fit(image=muppet, size=shirt.size)
+    #  PASTE SHIRT IMAGE ON TOP OF MUPPET IMAGE
+    muppet_result.paste(im=shirt, mask=shirt)
+    return muppet_result
 
 
 def validate_image(image_file):
     try:
-        image = Image.open(image_file)
-        return image
-
+        return Image.open(image_file)
     except FileNotFoundError:
         exit("Image does not exist")
 
 
 if __name__ == "__main__":
     main()
-
