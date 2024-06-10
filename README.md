@@ -72,9 +72,9 @@ MY Solutions for all the problem sets:
 * [Lines of Code](/week6/lines/lines.py) | <sup><sub>[***REVISION**](/week6/lines/lines_revision.py)*
 * [Pizza Py](/week6/pizza/pizza.py) | <sup><sub>[***REVISION**](/week6/pizza/pizza_revision.py)*
 * [Scourgify](/week6/scourgify/scourgify.py) | <sup><sub>[***REVISION**](/week6/scourgify/scourgify_revision.py)*
-* [CS50 P-Shirt](/week6/shirt/shirt.py)  <-- CURRENTLY HERE
+* [CS50 P-Shirt](/week6/shirt/shirt.py) | <sup><sub>[***REVISION**](/week6/shirt/shirt_revision.py)*  
 
-### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
+### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)  <-- CURRENTLY HERE
 * [NUMB3RS](/week7/numb3rs/)
 * [Watch on YouTube](/week7/watch/)
 * [Working 9 to 5](/week7/working/)
