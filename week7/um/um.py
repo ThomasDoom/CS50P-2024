@@ -7,8 +7,7 @@ def main():
 
 
 def count(s: str) -> int:
-    if match := re.findall(PATTERN, s, re.IGNORECASE):
-        return len(match)
+    return len(re.findall(PATTERN, s, re.IGNORECASE)):
 
 
 if __name__ == "__main__":
