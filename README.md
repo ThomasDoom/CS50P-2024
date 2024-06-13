@@ -74,14 +74,14 @@ MY Solutions for all the problem sets:
 * [Scourgify](/week6/scourgify/scourgify.py) | <sup><sub>[***REVISION**](/week6/scourgify/scourgify_revision.py)*
 * [CS50 P-Shirt](/week6/shirt/shirt.py) | <sup><sub>[***REVISION**](/week6/shirt/shirt_revision.py)*  
 
-### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)  <-- CURRENTLY HERE
+### [Week 7:](/week7) [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
 * [NUMB3RS](/week7/numb3rs/)
 * [Watch on YouTube](/week7/watch/)
 * [Working 9 to 5](/week7/working/)
 * [Regular, um, Expressions](/week7/um/)
 * [Response Validation](/week7/response/)
 
-### [Week 8:](/week8) [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
+### [Week 8:](/week8) [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)  <-- CURRENTLY HERE
 * [Seasons of Love](/week8/seasons/)
 * [Cookie Jar](/week8/jar/)
 * [CS50 Shirtificate](/week8/shirtificate/)
