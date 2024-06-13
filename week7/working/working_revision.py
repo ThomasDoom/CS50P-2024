@@ -2,6 +2,7 @@ import re
 #                         |  OPTIONAL  |
 #            (0-9|10-12)  :?  (00-59)?    (AM|PM)
 PATTERN = r"([1-9]|1[0-2]):?([0-5][0-9])? (AM|PM)"
+#    GROUPS:    1 & 4          2 & 5       3 & 6
 
 def main():
     print(convert(input("Hours: ")))
