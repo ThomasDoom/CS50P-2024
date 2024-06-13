@@ -11,6 +11,7 @@ def main():
     except ValueError:
         exit(ValueError)
 
+
 def convert(s: str):
     match = re.match(PATTERN, s)
     if not match:
