@@ -20,7 +20,8 @@ def number_check(s: str) -> bool:
             return c != "0" and s[i:].isdigit() # Once first digit is found, check if 0 and check if remainder isdigit
 
 
-main()
+if __name__ == "__main__":
+    main()
 
 
 # Must start with 2+ LETTERS
