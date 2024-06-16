@@ -21,7 +21,7 @@ def print_sorted_items(counts: dict[str, int]):
     """
     Prints the item counts sorted alpha by item names
     """
-    sorted_dict = {key: value for key, value in sorted(counts.items())}
+    sorted_dict = {key: value for key, value in sorted(counts.items())} # I OVERCOMPLICATED THIS SO MUCH HAHAHHAA
     for key, value in sorted_dict.items():
         print(f'{value} {key}')
 
