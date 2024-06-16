@@ -29,7 +29,7 @@ def print_sorted_items(list: dict[str, int]) -> str:
     """
     Prints the item counts sorted alpha by item names
     """
-    for key, value in sorted(list.items()):
+    for key, value in sorted(list.items()): # look how less complicated this is with a better result LOL
         print(value, key)
 
 
