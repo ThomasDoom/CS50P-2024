@@ -1,34 +1,25 @@
-# Clarifying names, Comprehensive coding, Good notes
-
 def main():
-    print(calculate_fuel_status("Fraction: "))
+    print(get_fuel("Fraction: "))
 
 
-def calculate_fuel_status(prompt):
-    """
-    Calculate the fuel status based on the provided fuel fraction.
-    Returns:
-        - "F" for full,
-        - "E" for empty,
-        - Percentage for other cases.
-    """
+def get_fuel(prompt):
     while True:
         try:
-            # Gets input -> splits string into substrings and converts into integers
+            #  Gets input -> splits string into substrings and converts into integers
             num, den = map(int, input(prompt).split("/"))
 
-            # Checks for valid fraction and non-zero denominator
-            if num <= den and den != 0:
-                fuel_perc = round((num / den) * 100) # Decimal to percent value
-                if fuel_perc <= 1:
-                    return "E"  # Empty
-                elif fuel_perc >= 99:
-                    return "F"  # Full
-                else:
-                    return f"{fuel_per}%"  # Percentage
-
+            if num > den or den == 0:
+                raise ValueError if num > den else ZeroDivisionError
+            break
         except (ValueError, ZeroDivisionError):
-            pass
+            continue
+
+    fuel_percentage = round(num / den * 100)
+    if fuel_percentage <= 1:
+        return "E"  # Empty
+    elif fuel_percentage >= 99:
+        return "F"  # Full
+    return f"{fuel_percentage}%"  # Percentage
 
 
 if __name__ == "__main__":
