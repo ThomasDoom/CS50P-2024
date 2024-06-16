@@ -2,6 +2,8 @@ from datetime import date
 from sys import exit
 import inflect
 
+# Ofc this can be simply done without classes but its for the experienceeeeeee
+
 class AgeInMinutes:
 
     def __init__(self):
