@@ -8,11 +8,11 @@ class Jar:
         return "🍪" * self._cookies
 
     def deposit(self, n):
-        self._deposit_check(n)
+        self._operation_check(n, "Deposit")
         self._cookies += n
 
     def withdraw(self, n):
-        self._withdraw_check(n)
+        self._operation_check(n, "Withdrawal")
         self._cookies -= n
 
     @property
@@ -23,14 +23,11 @@ class Jar:
     def size(self):
         return self._cookies
 
-    def _deposit_check(self, n):
-        self._input_check(n, "Deposit")
-        if self._cookies + n > self._capacity:
+    def _operation_check(self, n, operation):
+        self._input_check(n, operation)
+        if operation == "Deposit" and self._cookies + n > self._capacity:
             raise ValueError("Cookies are oVERFLOWINGGG!!")
-
-    def _withdraw_check(self, n):
-        self._input_check(n, "Withdrawal")
-        if n > self._cookies:
+        if operation == "Withdrawal" and n > self._cookies:
             raise ValueError("Not enough cookies in the jar!")
 
     @staticmethod
