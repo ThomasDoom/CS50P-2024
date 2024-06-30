@@ -129,9 +129,10 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 
 ### [Week 8](/week8): [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
 * [Seasons of Love](/week8/seasons/)
-* [Cookie Jar](/week8/jar/)  <-- CURRENTLY HERE
+* [Cookie Jar](/week8/jar/)
 * [CS50 Shirtificate](/week8/shirtificate/)
 
+### [Week 9](/week9): Final Project  <-- CURRENTLY HERE
 <br/>
 
 ---
