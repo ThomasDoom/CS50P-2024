@@ -132,7 +132,7 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 * [Cookie Jar](/week8/jar/) | <sup><sub>[***REVISION**](/week8/jar/jar_revision.py)*
 * [CS50 Shirtificate](/week8/shirtificate/) | <sup><sub>[***REVISION**](/week8/shirtificate/shirtificate_revision.py)*
 
-### [Week 9](/week9): Final Project  <-- CURRENTLY HERE
+### [Week 9](/week9): [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/) / [Final Project](https://cs50.harvard.edu/python/2022/project/)  <-- CURRENTLY HERE
 <br/>
 
 ---
