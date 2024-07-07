@@ -1,5 +1,4 @@
-mass = int(input("m: "))
-
+""" e = mc² """
+m = int(input("m: "))
 c2 = 300000000**2
-
-print(mass*c2)
+print(m*c2)
