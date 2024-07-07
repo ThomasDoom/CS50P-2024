@@ -3,10 +3,10 @@ def main():
     print(convert(expr))
 
 def convert(s):
-    x, y, z = s.split(" ")
+    x, op, z = s.split()
     x, z = float(x), float(z)
 
-    match y:
+    match op:
         case "+":
             return(x + z)
         case "-":
