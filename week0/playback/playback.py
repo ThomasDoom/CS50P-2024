@@ -1,2 +1,1 @@
-string = input("")
-string = string.replace(" ", "...")
+print(input("").replace(" ", "..."))
