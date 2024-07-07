@@ -78,7 +78,7 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 * [Playback Speed](/week0/playback/playback.py)
 * [Making Faces](/week0/faces/faces.py) | <sup><sub>[***REVISION**](/week0/faces/faces_revision.py)*
 * [Einstein](/week0/einstein/einstein.py)
-* [Tip Calculator](/week0/tip/tip.py)
+* [Tip Calculator](/week0/tip/tip.py) | <sup><sub>[***REVISION**](/week0/tip/tip_revision.py)*
 
 ### [Week 1](/week1): [Conditionals](https://cs50.harvard.edu/python/2022/psets/1/)
 * [Deep Thought](/week1/deep/deep.py) | <sup><sub>[***REVISION**](/week1/deep/deep_revision.py)*
