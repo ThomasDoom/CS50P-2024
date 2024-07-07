@@ -76,7 +76,7 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 ### [Week 0](/week0): [Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
 * [Indoor Voice](/week0/indoor/indoor.py)
 * [Playback Speed](/week0/playback/playback.py)
-* [Making Faces](/week0/faces/faces.py)
+* [Making Faces](/week0/faces/faces.py) | <sup><sub>[***REVISION**](/week0/faces/faces_revision.py)*
 * [Einstein](/week0/einstein/einstein.py)
 * [Tip Calculator](/week0/tip/tip.py)
 
