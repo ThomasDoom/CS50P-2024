@@ -12,8 +12,7 @@ def validate(ip: str) -> bool:
 
 def valid_bytes(ip: str) -> bool:
     """Validate each number is 0-255"""
-    bytes = ip.split(".")
-    return all(0 <= int(byte) <= 255 for byte in bytes)
+    return all(0 <= int(byte) <= 255 for byte in ip.split("."))
 
 
 if __name__ == "__main__":
