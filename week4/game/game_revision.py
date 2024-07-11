@@ -11,7 +11,7 @@ def main():
             answer = randint(1, level)
 
             # Start guessing game
-            guess_and_check(answer)
+            game(answer)
 
         # Catch invalid inputs
         except (ValueError, Exception):
@@ -28,7 +28,7 @@ def get_positive_integer(prompt) -> int:
     raise Exception
 
 
-def guess_and_check(answer: int) -> str:
+def game(answer: int) -> str:
     while True:
         guess = int(input("Guess: "))
 
