@@ -7,14 +7,8 @@ def main():
 
 
 def check_for_file() -> bool:
-    """
-    Checks for valid command-line argument
-        # Index must be 1
-        # argument must be a python file
-    """
     if len(argv) < 2:
         exit("Too few command-line arguments")
-
     elif len(argv) > 2:
         exit("Too many command-line arguments")
 
@@ -25,22 +19,11 @@ def check_for_file() -> bool:
 
 
 def lines_of_code() -> int:
-    """
-    Opens existing file, reads line by line and only counts valid lines of code
-    """
+    """ Opens existing file, reads line by line and only counts valid lines of code """
     try:
-        file = open(argv[1]).read().splitlines()
-        lines = 0
-
-        for row in file:
-
-            row = row.strip()
-
-            # EMPTY STRINGS/LISTS AND COMMENTS WILL RETURN FALSE
-            if row and not row.startswith("#"):
-                lines += 1
-
-        return lines
+        with open(sys.argv[1], 'r') as file:
+            lines = (line.strip() for line in file)
+            return sum(1 for line in lines if line and not line.startswith("#"))
 
     except FileNotFoundError:
         exit("File does not exist")
