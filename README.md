@@ -66,10 +66,6 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 
 <br/>
 
-<div align="left">
-:construction: <sub>ONGOING (WIP)</sub>
-</div>
-
 ## 📖 Table of Contents
 
 ### [Week 0](/week0): [Functions, Variables](https://cs50.harvard.edu/python/2022/psets/0/)
