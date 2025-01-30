@@ -18,7 +18,7 @@ def format_farewell(names):
     if len(names) == 1:
         return names[0]
 
-    # If there are 2 names, join them with 'and
+    # If there are 2 names, join them with 'and'
     elif len(names) == 2:
         return f"{names[0]} and {names[1]}"
 
