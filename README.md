@@ -50,7 +50,6 @@
 ## :bulb: Overview
 
 Each problem contains my original solution and possibly a revised version that I reviewed and created **AFTER** submission.
-> I will go back and mark all the problems I found most difficult.
 
 This is my first real crack at Python and programming in general. I'm aiming to learn all the best practices along with the language itself. Once completed I aim to enroll in the CS50x Course!
 
@@ -132,7 +131,7 @@ This is my first real crack at Python and programming in general. I'm aiming to 
 * [Cookie Jar](/week8/jar/) | <sup><sub>[***REVISION**](/week8/jar/jar_revision.py)*
 * [CS50 Shirtificate](/week8/shirtificate/) | <sup><sub>[***REVISION**](/week8/shirtificate/shirtificate_revision.py)*
 
-### [Week 9](/week9): [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/) / [Final Project](https://cs50.harvard.edu/python/2022/project/)  <-- CURRENTLY HERE
+### [Week 9](/week9): [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/) / [Final Project](https://cs50.harvard.edu/python/2022/project/) 
 <br/>
 
 ---
